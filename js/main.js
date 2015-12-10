@@ -11,6 +11,7 @@ var MyApp = React.createClass({
                 'G' : 0,
                 'H' : 0,
                 'I' : 0,
+                'J' : 0,
                 'K' : 0,
                 'L' : 0,
                 'M' : 0,
@@ -21,7 +22,9 @@ var MyApp = React.createClass({
                 'R' : 0,
                 'S' : 0,
                 'T' : 0,
+                'U' : 0,
                 'V' : 0,
+                'W' : 0,
                 'X' : 0,
                 'Y' : 0,
                 'Z' : 0

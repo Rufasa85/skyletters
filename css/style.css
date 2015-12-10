@@ -1,3 +1,40 @@
+@font-face {
+  font-family: 'Deja Vu';
+  src: url('./fonts/vtks_Deja_Vu.ttf');
+}
+@font-face {
+  font-family: 'Nightmares';
+  src: url('./fonts/nightmares.ttf');
+}
+@font-face {
+  font-family: 'Green Pillow';
+  src: url('./fonts/greenpill.ttf');
+}
+@font-face {
+  font-family: 'Precious';
+  src: url('./fonts/precious.ttf');
+}
+@font-face {
+  font-family: 'Dear Love';
+  src: url('./fonts/vtks_dear_love.ttf');
+}
+@font-face {
+  font-family: 'Confetti Stream';
+  src: url('./fonts/Confetti Stream.ttf');
+}
+@font-face {
+  font-family: 'Mona Shark';
+  src: url('./fonts/Mona Shark.ttf');
+}
+@font-face {
+  font-family: 'Something Strange';
+  src: url('./fonts/Something Strange.ttf');
+}
+@font-face {
+  font-family: 'Friday Night Lights';
+  src: url('./fonts/FNL_DEMO-KCFonts.ttf');
+}
+
 .frequency-0{
 font-size: 12px;
 }

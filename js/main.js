@@ -44,9 +44,11 @@ var MyApp = React.createClass({
 		console.log(this.state.lettersObj)
 		return(
 			<div>
-				<h1>The Skybox</h1>
+				<h1>skybox</h1>
 				<SkyBox totalLetters= {this.state.totalLetters} data={this.state.lettersObj}/>
-				<textarea onChange={this.wordChange} placeholder = 'type stuff here'/>
+				<div className="text-center">
+				<textarea className="well" onChange={this.wordChange} placeholder = 'type stuff here'/>
+				</div>
 			</div>
 		)
 	}

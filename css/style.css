@@ -58,13 +58,40 @@ body{
 	background-image: url(sky.jpg);
 }
 img{
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-	
+  position: fixed;
+  top: 0;
+  left: 0;
+
   /* Preserve aspet ratio */
   min-width: 50%;
   min-height: 50%;
+}
+.top-1 {
+  font-family: 'Deja Vu';
+}
+.top-2 {
+  font-family: 'Nightmares';
+}
+.top-3 {
+  font-family: 'Precious';
+}
+.top-4 {
+  font-family: 'Green Pillow';
+}
+.top-5 {
+  font-family: 'Confetti Stream';
+}
+.top-6 {
+  font-family: 'Mona Shark';
+}
+.top-7 {
+  font-family: 'Dear Love';
+}
+.top-8 {
+  font-family: 'Friday Night Lights';
+}
+.top-9 {
+  font-family: 'Something Strange';
 }
 .frequency-0{
 font-size: 90px;

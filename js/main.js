@@ -44,7 +44,7 @@ var MyApp = React.createClass({
 		console.log(this.state.lettersObj)
 		return(
 			<div>
-				<h1>Hello</h1>
+				<h1>The Skybox</h1>
 				<SkyBox totalLetters= {this.state.totalLetters} data={this.state.lettersObj}/>
 				<textarea onChange={this.wordChange} placeholder = 'type stuff here'/>
 			</div>
@@ -72,8 +72,7 @@ var SkyBox = React.createClass({
 			}
 		}
 		return (
-			<div>
-				<h2> the SkyBox is loaded</h2>
+			<div className="skyB well" >
 				{skyLetters}
 			</div>
 		)

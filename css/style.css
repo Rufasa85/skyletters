@@ -1,303 +1,423 @@
+span{
+	padding: 10px;
+}
+.skyB{
+	background: mediumspringgreen;
+}
+body{
+	background-image: url(sky.jpg);
+	
+	-webkit-background-size: 100% auto;
+
+-moz-background-size: 100% auto;
+
+-o-background-size: 100% auto;
+
+background-size: 100% auto;
+}
 .frequency-0{
 font-size: 12px;
+color:rgb(0,0,0)
 }
 .frequency-1{
 font-size: 14px;
+color:rgb(4,0,0)
 }
 .frequency-2{
 font-size: 16px;
+color:rgb(8,0,0)
 }
 .frequency-3{
 font-size: 18px;
+color:rgb(12,0,0)
 }
 .frequency-4{
 font-size: 20px;
+color:rgb(16,0,0)
 }
 .frequency-5{
 font-size: 22px;
+color:rgb(20,0,0)
 }
 .frequency-6{
 font-size: 24px;
+color:rgb(24,0,0)
 }
 .frequency-7{
 font-size: 26px;
+color:rgb(28,0,0)
 }
 .frequency-8{
 font-size: 28px;
+color:rgb(32,0,0)
 }
 .frequency-9{
 font-size: 30px;
+color:rgb(36,0,0)
 }
 .frequency-10{
 font-size: 32px;
+color:rgb(40,0,0)
 }
 .frequency-11{
 font-size: 34px;
+color:rgb(44,0,0)
 }
 .frequency-12{
 font-size: 36px;
+color:rgb(48,0,0)
 }
 .frequency-13{
 font-size: 38px;
+color:rgb(52,0,0)
 }
 .frequency-14{
 font-size: 40px;
+color:rgb(56,0,0)
 }
 .frequency-15{
 font-size: 42px;
+color:rgb(60,0,0)
 }
 .frequency-16{
 font-size: 44px;
+color:rgb(64,0,0)
 }
 .frequency-17{
 font-size: 46px;
+color:rgb(68,0,0)
 }
 .frequency-18{
 font-size: 48px;
+color:rgb(72,0,0)
 }
 .frequency-19{
 font-size: 50px;
+color:rgb(76,0,0)
 }
 .frequency-20{
 font-size: 52px;
+color:rgb(80,0,0)
 }
 .frequency-21{
 font-size: 54px;
+color:rgb(84,0,0)
 }
 .frequency-22{
 font-size: 56px;
+color:rgb(88,0,0)
 }
 .frequency-23{
 font-size: 58px;
+color:rgb(92,0,0)
 }
 .frequency-24{
 font-size: 60px;
+color:rgb(96,0,0)
 }
 .frequency-25{
 font-size: 62px;
+color:rgb(100,0,0)
 }
 .frequency-26{
 font-size: 64px;
+color:rgb(104,0,0)
 }
 .frequency-27{
 font-size: 66px;
+color:rgb(108,0,0)
 }
 .frequency-28{
 font-size: 68px;
+color:rgb(112,0,0)
 }
 .frequency-29{
 font-size: 70px;
+color:rgb(116,0,0)
 }
 .frequency-30{
 font-size: 72px;
+color:rgb(120,0,0)
 }
 .frequency-31{
 font-size: 74px;
+color:rgb(124,0,0)
 }
 .frequency-32{
 font-size: 76px;
+color:rgb(128,0,0)
 }
 .frequency-33{
 font-size: 78px;
+color:rgb(132,0,0)
 }
 .frequency-34{
 font-size: 80px;
+color:rgb(136,0,0)
 }
 .frequency-35{
 font-size: 82px;
+color:rgb(140,0,0)
 }
 .frequency-36{
 font-size: 84px;
+color:rgb(144,0,0)
 }
 .frequency-37{
 font-size: 86px;
+color:rgb(148,0,0)
 }
 .frequency-38{
 font-size: 88px;
+color:rgb(152,0,0)
 }
 .frequency-39{
 font-size: 90px;
+color:rgb(156,0,0)
 }
 .frequency-40{
 font-size: 92px;
+color:rgb(160,0,0)
 }
 .frequency-41{
 font-size: 94px;
+color:rgb(164,0,0)
 }
 .frequency-42{
 font-size: 96px;
+color:rgb(168,0,0)
 }
 .frequency-43{
 font-size: 98px;
+color:rgb(172,0,0)
 }
 .frequency-44{
 font-size: 100px;
+color:rgb(176,0,0)
 }
 .frequency-45{
 font-size: 102px;
+color:rgb(180,0,0)
 }
 .frequency-46{
 font-size: 104px;
+color:rgb(184,0,0)
 }
 .frequency-47{
 font-size: 106px;
+color:rgb(188,0,0)
 }
 .frequency-48{
 font-size: 108px;
+color:rgb(192,0,0)
 }
 .frequency-49{
 font-size: 110px;
+color:rgb(196,0,0)
 }
 .frequency-50{
 font-size: 112px;
+color:rgb(200,0,0)
 }
 .frequency-51{
 font-size: 114px;
+color:rgb(204,0,0)
 }
 .frequency-52{
 font-size: 116px;
+color:rgb(208,0,0)
 }
 .frequency-53{
 font-size: 118px;
+color:rgb(212,0,0)
 }
 .frequency-54{
 font-size: 120px;
+color:rgb(216,0,0)
 }
 .frequency-55{
 font-size: 122px;
+color:rgb(220,0,0)
 }
 .frequency-56{
 font-size: 124px;
+color:rgb(224,0,0)
 }
 .frequency-57{
 font-size: 126px;
+color:rgb(228,0,0)
 }
 .frequency-58{
 font-size: 128px;
+color:rgb(232,0,0)
 }
 .frequency-59{
 font-size: 130px;
+color:rgb(236,0,0)
 }
 .frequency-60{
 font-size: 132px;
+color:rgb(240,0,0)
 }
 .frequency-61{
 font-size: 134px;
+color:rgb(244,0,0)
 }
 .frequency-62{
 font-size: 136px;
+color:rgb(248,0,0)
 }
 .frequency-63{
 font-size: 138px;
+color:rgb(252,0,0)
 }
 .frequency-64{
 font-size: 140px;
+color:rgb(1,0,0)
 }
 .frequency-65{
 font-size: 142px;
+color:rgb(5,0,0)
 }
 .frequency-66{
 font-size: 144px;
+color:rgb(9,0,0)
 }
 .frequency-67{
 font-size: 146px;
+color:rgb(13,0,0)
 }
 .frequency-68{
 font-size: 148px;
+color:rgb(17,0,0)
 }
 .frequency-69{
 font-size: 150px;
+color:rgb(21,0,0)
 }
 .frequency-70{
 font-size: 152px;
+color:rgb(25,0,0)
 }
 .frequency-71{
 font-size: 154px;
+color:rgb(29,0,0)
 }
 .frequency-72{
 font-size: 156px;
+color:rgb(33,0,0)
 }
 .frequency-73{
 font-size: 158px;
+color:rgb(37,0,0)
 }
 .frequency-74{
 font-size: 160px;
+color:rgb(41,0,0)
 }
 .frequency-75{
 font-size: 162px;
+color:rgb(45,0,0)
 }
 .frequency-76{
 font-size: 164px;
+color:rgb(49,0,0)
 }
 .frequency-77{
 font-size: 166px;
+color:rgb(53,0,0)
 }
 .frequency-78{
 font-size: 168px;
+color:rgb(57,0,0)
 }
 .frequency-79{
 font-size: 170px;
+color:rgb(61,0,0)
 }
 .frequency-80{
 font-size: 172px;
+color:rgb(65,0,0)
 }
 .frequency-81{
 font-size: 174px;
+color:rgb(69,0,0)
 }
 .frequency-82{
 font-size: 176px;
+color:rgb(73,0,0)
 }
 .frequency-83{
 font-size: 178px;
+color:rgb(77,0,0)
 }
 .frequency-84{
 font-size: 180px;
+color:rgb(81,0,0)
 }
 .frequency-85{
 font-size: 182px;
+color:rgb(85,0,0)
 }
 .frequency-86{
 font-size: 184px;
+color:rgb(89,0,0)
 }
 .frequency-87{
 font-size: 186px;
+color:rgb(93,0,0)
 }
 .frequency-88{
 font-size: 188px;
+color:rgb(97,0,0)
 }
 .frequency-89{
 font-size: 190px;
+color:rgb(101,0,0)
 }
 .frequency-90{
 font-size: 192px;
+color:rgb(105,0,0)
 }
 .frequency-91{
 font-size: 194px;
+color:rgb(109,0,0)
 }
 .frequency-92{
 font-size: 196px;
+color:rgb(113,0,0)
 }
 .frequency-93{
 font-size: 198px;
+color:rgb(117,0,0)
 }
 .frequency-94{
 font-size: 200px;
+color:rgb(121,0,0)
 }
 .frequency-95{
 font-size: 202px;
+color:rgb(125,0,0)
 }
 .frequency-96{
 font-size: 204px;
+color:rgb(129,0,0)
 }
 .frequency-97{
 font-size: 206px;
+color:rgb(133,0,0)
 }
 .frequency-98{
 font-size: 208px;
+color:rgb(137,0,0)
 }
 .frequency-99{
 font-size: 210px;
+color:rgb(141,0,0)
 }
 .frequency-100{
 font-size: 212px;
+color:rgb(145,0,0)
 }
+
+/*This style file was created with ruby I love programming*/

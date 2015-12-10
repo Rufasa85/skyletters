@@ -107,7 +107,6 @@ var SkyBox = React.createClass({
 		}
 		return (
 			<div>
-				<h2> the SkyBox is loaded</h2>
 				{skyLetters}
 			</div>
 		)

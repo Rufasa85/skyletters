@@ -13,7 +13,7 @@ var MyApp = React.createClass({
 		        'I' : 0,
 		        'J' : 0,
 		        'K' : 0,
-		        'L' : 0, 
+		        'L' : 0,
 		        'M' : 0,
 		        'N' : 0,
 		        'O' : 0,
@@ -32,7 +32,7 @@ var MyApp = React.createClass({
 		    words:'',
 		    totalLetters:0
 		}
-	},	
+	},
 	wordChange: function(e) {
 		var words = e.target.value;
 		this.setState({words:e.target.value})
@@ -58,7 +58,7 @@ var MyApp = React.createClass({
 
 var Letter = React.createClass({
 	render: function() {
-		return <span className = {this.props.stylin}>{this.props.char}</span>
+		return <span className = {this.props.stylin + ' ' + this.props.fontClass}>{this.props.char}</span>
 	}
 })
 
@@ -69,10 +69,40 @@ var SkyBox = React.createClass({
 		for (var key in this.props.data) {
 			var count = this.props.data[key];
 			var percent = Math.floor(count/allTheLetters * 100);
-			// (Math.floor(this.props.data[key]/parseInt(this.props.totalLetters) *100)) 
+			var fontClass = '';
+			switch(true) {
+				case percent >= 70:
+					fontClass = 'top-1'
+					break;
+				case percent >= 60:
+					fontClass = 'top-2'
+					break;
+				case percent >= 50:
+					fontClass = 'top-3'
+					break;
+				case percent >= 40:
+					fontClass = 'top-4'
+					break;
+				case percent >= 35:
+					fontClass = 'top-5'
+					break;
+				case percent >= 30:
+					fontClass = 'top-6'
+					break;
+				case percent >= 25:
+					fontClass = 'top-7'
+					break;
+				case percent >= 20:
+					fontClass = 'top-8'
+					break;
+				case percent >= 15:
+					fontClass = 'top-9'
+					break;
+			}
+			// (Math.floor(this.props.data[key]/parseInt(this.props.totalLetters) *100))
 			var properClass = 'frequency-' + percent
 			if (this.props.data[key] !== 0) {
-				skyLetters.push(<Letter stylin={properClass} char={key}/>)
+				skyLetters.push(<Letter stylin={properClass} fontClass={fontClass} char={key}/>)
 			}
 		}
 		return (

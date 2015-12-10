@@ -1,32 +1,4 @@
 var MyApp = React.createClass({
-	defaultLettersObj: {
-		        'A' : 0,
-		        'B' : 0,
-		        'C' : 0,
-		        'D' : 0,
-		        'E' : 0,
-		        'F' : 0,
-		        'G' : 0,
-		        'H' : 0,
-		        'I' : 0,
-		        'J' : 0,
-		        'K' : 0,
-		        'L' : 0, 
-		        'M' : 0,
-		        'N' : 0,
-		        'O' : 0,
-		        'P' : 0,
-		        'Q' : 0,
-		        'R' : 0,
-		        'S' : 0,
-		        'T' : 0,
-		        'U' : 0,
-		        'V' : 0,
-		        'W' : 0,
-		        'X' : 0,
-		        'Y' : 0,
-		        'Z' : 0
-		    },
 	getInitialState: function() {
 		return {
 			lettersObj: {
@@ -63,38 +35,22 @@ var MyApp = React.createClass({
 	},	
 	wordChange: function(e) {
 		var words = e.target.value;
-		if (words.length  !== this.state.words.length + 1){
-			this.pasteOrDelete(words);
-		}
-		else{
-			this.setState({words:e.target.value})
-			var arr = this.state.words.split(' ').join('').split('');
-			// for (var i = 0; i < arr.length; i++) {
-			var uppedLetter = arr[arr.length-1].toUpperCase();
-			this.state.lettersObj[uppedLetter]++;
-			// };
-			this.setState({lettersObj: this.state.lettersObj, totalLetters: arr.length})
-			// console.log(e.target.value, this.state.words, this.state.lettersObj[uppedLetter])
-		}
-	},
-	pasteOrDelete: function(fullString) {
-		this.setState({lettersObj: defaultLettersObj, words:fullString})
+		this.setState({words:e.target.value})
 		var arr = this.state.words.split(' ').join('').split('');
-			// for (var i = 0; i < arr.length; i++) {
-			var uppedLetter = arr[arr.length-1].toUpperCase();
-			this.state.lettersObj[uppedLetter]++;
-			// };
-			this.setState({lettersObj: this.state.lettersObj, totalLetters: arr.length})
-			// console.log(e.target.value, this.state.words, this.state.lettersObj[uppedLetter])
+		// for (var i = 0; i < arr.length; i++) {
+		var uppedLetter = arr[arr.length-1].toUpperCase();
+		this.state.lettersObj[uppedLetter]++;
+		// };
+		this.setState({lettersObj: this.state.lettersObj, totalLetters: arr.length})
+		console.log(e.target.value, this.state.words, this.state.lettersObj[uppedLetter])
 	},
 	render:function() {
+		console.log(this.state.lettersObj)
 		return(
 			<div>
-				<h1>skybox</h1>
+				<h1>Hello</h1>
 				<SkyBox totalLetters= {this.state.totalLetters} data={this.state.lettersObj}/>
-				<div className="text-center">
-				<textarea className="well" onChange={this.wordChange} placeholder = 'type stuff here'/>
-				</div>
+				<textarea onChange={this.wordChange} placeholder = 'type stuff here'/>
 			</div>
 		)
 	}
@@ -120,7 +76,8 @@ var SkyBox = React.createClass({
 			}
 		}
 		return (
-			<div className="skyB well" >
+			<div>
+				<h2> the SkyBox is loaded</h2>
 				{skyLetters}
 			</div>
 		)
